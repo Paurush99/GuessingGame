@@ -76,3 +76,104 @@ body{
 .emojiBox{
     font-size: 100px;
 }
+
+@media (max-width: 400px) { 
+    
+.gameBox{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 26% 72%;
+    padding: 2%;
+    background-color: black;
+    max-height: 100%;
+    height:100%;
+    
+
+
+    
+}
+
+.header{
+
+    background-color: rgb(80, 79, 77);
+    display: grid;
+    grid-template-columns: 20% 50% 26%;
+    padding: 2%;
+    font-size: 6px  ;
+}
+
+.title{
+    text-align: center;
+    font-size: 3.5px;
+    
+}
+
+.gameInfo{
+    text-align: right;
+    font-size: 4px;
+}
+
+.container{
+
+    background-color: rgb(39, 39, 38);
+    display: grid;
+    grid-template-columns: 40% 40% 10%;
+    padding: 10%;
+    
+}
+
+.playAgain{
+    color: white;
+    width: 60%;
+	display: inline-block;
+	padding: 2%;
+	background-color: black;
+    font-family: 'Press Start 2P';
+	font-size: 6px;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+
+.inputBox{
+    width: 20%;
+	display: inline-block;
+	padding: 5px;
+	font-size: 10px;
+}
+
+.guess{
+    color: white;
+    width: 30%;
+	display: inline-block;
+	padding: 2%;
+	background-color: black;
+    font-family: 'Press Start 2P';
+	font-size: 3px;
+	border: 2px solid white;
+	border-radius: 8px;
+}
+.emojiBox{
+    font-size: 19px;
+}
+
+.gameBox{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30% 66%;
+    padding: 2%;
+    background-color: black;
+    max-height: 100%;
+    height:100%;
+    font-size: 6px;
+    
+
+
+    
+}
+
+
+
+
+
+
+}
