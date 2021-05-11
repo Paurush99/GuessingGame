@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="gameBox">
+        <div class="header">
+            <div>
+                <button class="playAgain" id="play" onclick="random()">Play Again</button>
+            </div>
+            <div class="title">
+                <h1> Guess the Number </h1>
+            </div>
+            <div class="gameInfo">Between 1 to 20</div>
+        </div>
+        <div class="container">
+            <div><input class="inputBox" id="in"></input>
+                
+                <button class="guess" id="guess" onclick="guess()">Guess</button>
+            </div>
+            <div class="outputBox">
+                <div id="out">Guess the number</div>
+                <div id="score">Score: 20</div>
+            </div>
+            <div class="emojiBox" id="emoji"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
