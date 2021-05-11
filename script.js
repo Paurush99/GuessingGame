@@ -5,6 +5,7 @@ function random() {
     number = Math.floor(Math.random() * 21) + 1;
     console.log(number);
     document.getElementById('in').value="";
+    document.getElementById('emoji').innerHTML = "&#129488";
     return number;
 }
 
